@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: src
+    database: sf_sample
+    schema: public
+    tables:
+      - name: customer
+      - name: nation
+      - name: region
