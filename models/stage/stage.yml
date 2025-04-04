@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name : stg_nation
+      description: List of all countries
+      columns:
+        - name : nation_id
+          description: '{{doc("primary_key")}}'
+          tests:
+            - unique
+            - not_null
+        - name : name
+          description : '{{doc("example")}}'
